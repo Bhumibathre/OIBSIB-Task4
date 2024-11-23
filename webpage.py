@@ -3,7 +3,7 @@
 # Dictionary to store registered users
 registered_users = {}
 
-# Function to register a new user
+# Function to register a new user 
 def register():   
     print("Please enter your details to register:")    
     username = input("Enter username: ") 
