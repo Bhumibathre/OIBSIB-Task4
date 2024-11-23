@@ -5,7 +5,7 @@ registered_users = {}
 
 # Function to register a new user
 def register():
-    print("Please enter your details to register:")
+    print("Please enter your details to register:") 
     username = input("Enter username: ")
     password = input("Enter password: ")
     registered_users[username] = password
